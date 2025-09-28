@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import chatImage from "../../assets/chat.jpg"; // apni image assets folder me daalna
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Signup: React.FC = () => {
+  const navigate= useNavigate();
   const [formData, setFormData] = useState({
     email: "",
     username: "",
@@ -34,6 +36,7 @@ const Signup: React.FC = () => {
 
       if (response.ok) {
         alert("User registered successfully!");
+        navigate('/signin');
       } else {
         alert("Failed to register user!");
       }

@@ -16,7 +16,7 @@ const WelcomePage = (props: WelcomePageProps) => {
                     height: '10rem',
                 }}/>
                 <h1>Welcome, {props.reqUser?.fullName}!</h1>
-                <p>Chat App designed and developed by Gorav Jindal and his team for apc project.</p>
+                <p>Chat App designed and developed by Code & Chaos </p>
             </div>
         </div>
     );
