@@ -1,0 +1,43 @@
+/* ./src/assets/BubbleBackground.css */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(var(--start-rotate));
+  }
+  50% {
+    transform: translateY(-20px) rotate(var(--end-rotate));
+  }
+  100% {
+    transform: translateY(0px) rotate(var(--start-rotate));
+  }
+}
+
+.bubble-bg-img {
+  animation: float 20s ease-in-out infinite;
+  display: block;
+}
+
+/* Original bubbles with varied animations */
+.bubble-anim1 { --start-rotate: -12deg; --end-rotate: 10deg; animation-duration: 25s; animation-delay: -5s; }
+.bubble-anim2 { --start-rotate: 18deg; --end-rotate: -15deg; animation-duration: 22s; animation-delay: -2s; }
+.bubble-anim3 { --start-rotate: -8deg; --end-rotate: 5deg; animation-duration: 28s; animation-delay: 0s; }
+.bubble-anim4 { --start-rotate: 10deg; --end-rotate: -12deg; animation-duration: 20s; animation-delay: -7s; }
+.bubble-anim5 { --start-rotate: -20deg; --end-rotate: 22deg; animation-duration: 26s; animation-delay: -3s; }
+.bubble-anim6 { --start-rotate: 6deg; --end-rotate: -4deg; animation-duration: 23s; animation-delay: -1s; }
+
+/* NEW ANIMATION CLASSES FOR THE ADDED ICONS */
+.bubble-anim7 { --start-rotate: -15deg; --end-rotate: 13deg; animation-duration: 29s; animation-delay: -4s; }
+.bubble-anim8 { --start-rotate: 7deg; --end-rotate: -9deg; animation-duration: 21s; animation-delay: -8s; }
+.bubble-anim9 { --start-rotate: -5deg; --end-rotate: 8deg; animation-duration: 24s; animation-delay: -6s; }
+.bubble-anim10 { --start-rotate: 13deg; --end-rotate: -10deg; animation-duration: 27s; animation-delay: -2.5s; }
+.bubble-anim11 { --start-rotate: -9deg; --end-rotate: 7deg; animation-duration: 19s; animation-delay: -9s; }
+.bubble-anim12 { --start-rotate: 17deg; --end-rotate: -14deg; animation-duration: 30s; animation-delay: -0.5s; }
+.bubble-anim13 { --start-rotate: -11deg; --end-rotate: 9deg; animation-duration: 22s; animation-delay: -7.5s; }
+.bubble-anim14 { --start-rotate: 8deg; --end-rotate: -6deg; animation-duration: 25s; animation-delay: -4.5s; }
+.bubble-anim15 { --start-rotate: -14deg; --end-rotate: 11deg; animation-duration: 28s; animation-delay: -1.5s; }
+.bubble-anim16 { --start-rotate: 12deg; --end-rotate: -8deg; animation-duration: 20s; animation-delay: -10s; }
+.bubble-anim17 { --start-rotate: 5deg; --end-rotate: -7deg; animation-duration: 26s; animation-delay: -3.5s; }
+.bubble-anim18 { --start-rotate: -18deg; --end-rotate: 15deg; animation-duration: 23s; animation-delay: -6.5s; }
+.bubble-anim19 { --start-rotate: 9deg; --end-rotate: -11deg; animation-duration: 29s; animation-delay: -0.8s; }
+.bubble-anim20 { --start-rotate: -7deg; --end-rotate: 6deg; animation-duration: 21s; animation-delay: -9.5s; }
+.bubble-anim21 { --start-rotate: -10deg; --end-rotate: 12deg; animation-duration: 26s; animation-delay: -11s; }

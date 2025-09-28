@@ -4,17 +4,22 @@
 
 .innerContainer {
   display: flex;
-  background-color: #f0f2f5;
+  /* background-color: #7a4895; --- REMOVED this to let the body's gradient show through */
   height: 90vh;
   width: 96vw;
   margin-top: 5vh;
   margin-left: 2vw;
+  border-radius: 12px; /* Added for a modern, rounded look */
+  overflow: hidden;    /* Ensures child elements respect the border-radius */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Optional: Adds a subtle shadow */
 }
 
 .sideBarContainer {
   width: 30%;
   height: 100%;
-  background-color: #e8e9ec;
+  background-color: #f8f9fa; /* CHANGED to a clean, very light off-white */
+  display: flex;
+  flex-direction: column;
 }
 
 .profileContainer {
@@ -33,6 +38,7 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   height: 11vh;
+  border-bottom: 1px solid #e9ecef; /* Added a subtle border */
 }
 
 .userInfoContainer {
@@ -52,14 +58,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff; /* Kept as white for a clear input area */
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  border-bottom: 1px solid #e9ecef; /* Added a subtle border */
 }
 
 .chatsContainer {
   height: 70vh;
-  background-color: white;
+  background-color: #f8f9fa; /* CHANGED to match the sidebar's new color */
   overflow-y: auto;
   padding-left: 0.75rem;
   padding-right: 0.75rem;

@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,8 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 100vw;
-  background-color: cadetblue;
+
+  /* --- NEW VISIBLE GRADIENT BACKGROUND --- */
+  /* This gradient fades from a medium indigo-purple to a softer magenta-purple. */
+  background: linear-gradient(to bottom right, #6D5BBA, #8D58BF);
+
+  /* Here is another option with a different feel:
+     background: linear-gradient(to bottom right, #9fa4c4, #9e768f); // Muted slate-blue to a dusty rose
+  */
+
+  min-height: 100vh; /* Ensure the gradient covers the whole viewport height */
 }
 
 code {

@@ -26,6 +26,7 @@ export interface UserDTO {
     id: UUID,
     email: string,
     fullName: string,
+    avatarUrl?: string; // <-- ADD THIS LINE
 }
 
 export interface AuthenticationErrorDTO {

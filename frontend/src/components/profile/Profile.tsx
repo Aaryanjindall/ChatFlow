@@ -69,7 +69,7 @@ const Profile = (props: ProfileProps) => {
                 <IconButton onClick={props.onCloseProfile}>
                     <WestIcon fontSize='medium'/>
                 </IconButton>
-                <h2>Profile</h2>
+                <h1>Profile</h1>
             </div>
             <div className={styles.avatarContainer}>
                 <Avatar sx={{width: '12vw', height: '12vw', fontSize: '5vw'}}>{props.initials}</Avatar>
