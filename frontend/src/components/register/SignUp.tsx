@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import chatImage from "../../assets/chat.jpg"; // apni image assets folder me daalna
 import { Navigate, useNavigate } from "react-router-dom";
-//use naviagte for redirection
+//use naviagte for redirection to sign in 
 const Signup: React.FC = () => {
   const navigate= useNavigate();
   const [formData, setFormData] = useState({
